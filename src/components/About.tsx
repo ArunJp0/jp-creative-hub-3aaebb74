@@ -63,7 +63,12 @@ const About = () => {
                 className="bg-primary hover:bg-primary/90 text-primary-foreground shadow-glow group"
                 asChild
               >
-                <a href="#" download>
+                <a 
+                  href="/Arunprasath_JP_Resume.pdf" 
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  download="Arunprasath_JP_Resume.pdf"
+                >
                   Download Resume
                   <Download className="ml-2 h-5 w-5 group-hover:translate-y-1 transition-transform" />
                 </a>
