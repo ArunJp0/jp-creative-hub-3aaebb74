@@ -12,18 +12,21 @@ const portfolioProjects = {
       description: "Modern salon website with booking system and service showcase",
       tech: ["HTML", "CSS", "JavaScript"],
       icon: Code2,
+      link: "https://nuxebeautysalon.in/",
     },
     {
       title: "Adyar Academy",
       description: "Educational platform with course management and student portal",
       tech: ["HTML", "CSS", "JavaScript"],
       icon: Code2,
+      link: "https://www.adyaracademy.com/",
     },
     {
       title: "Personal Portfolio",
       description: "Interactive portfolio with smooth animations and modern design",
       tech: ["React JS", "Tailwind CSS"],
       icon: Code2,
+      link: "https://incomparable-frangollo-b1264c.netlify.app",
     },
     {
       title: "Sree Vijayalaxme Silk Sarees",
@@ -38,18 +41,21 @@ const portfolioProjects = {
       description: "Comprehensive analysis of food delivery patterns and customer behavior",
       tech: ["Excel", "SQL", "Power BI"],
       icon: BarChart3,
+      link: "https://github.com/ArunJp0/Zomato_Sql",
     },
     {
       title: "Vehicle Insurance Analysis",
       description: "Insurance claims analysis with predictive insights dashboard",
       tech: ["Power BI", "SQL"],
       icon: BarChart3,
+      link: "https://app.powerbi.com/view?r=eyJrIjoiYzAwM2QyZmMtM2Y0Ny00YTUzLWIxOTctNDZjZDY5NGUwZGM1IiwidCI6IjgwODgwMDkxLWY0MzMtNGE3Zi1hMDNkLWJmNDRlNDM1ZjIzOSJ9",
     },
     {
       title: "Ecommerce Sales Analysis",
       description: "Sales performance tracking and optimization recommendations",
       tech: ["SQL", "Python", "Power BI"],
       icon: BarChart3,
+      link: "https://github.com/ArunJp0/Ecommerce-Data-Analysis-Sql-Python",
     },
     {
       title: "Policy Sales Analysis",
@@ -153,13 +159,21 @@ const ProjectCard = ({ project, index, isInView }: any) => {
           <div className="p-3 bg-primary/10 rounded-xl">
             <Icon className="w-6 h-6 text-primary" />
           </div>
-          <Button
-            size="icon"
-            variant="ghost"
-            className="opacity-0 group-hover:opacity-100 transition-opacity"
-          >
-            <ExternalLink className="w-5 h-5 text-primary" />
-          </Button>
+          {project.link && (
+            <a 
+              href={project.link} 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="opacity-0 group-hover:opacity-100 transition-opacity"
+            >
+              <Button
+                size="icon"
+                variant="ghost"
+              >
+                <ExternalLink className="w-5 h-5 text-primary" />
+              </Button>
+            </a>
+          )}
         </div>
         
         <h3 className="text-xl font-semibold mb-3 text-foreground group-hover:text-primary transition-colors">
