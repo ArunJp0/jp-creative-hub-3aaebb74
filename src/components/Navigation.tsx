@@ -2,19 +2,20 @@ import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { Link, useLocation } from "react-router-dom";
 
 const navLinks = [
-  { name: "Home", href: "#home" },
-  { name: "About", href: "#about" },
-  { name: "Skills", href: "#skills" },
-  { name: "Services", href: "#services" },
-  { name: "Portfolio", href: "#portfolio" },
-  { name: "Contact", href: "#contact" },
+  { name: "Home", href: "/" },
+  { name: "About", href: "/about" },
+  { name: "Services", href: "/services" },
+  { name: "Portfolio", href: "/portfolio" },
+  { name: "Contact", href: "/contact" },
 ];
 
 const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
+  const location = useLocation();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -23,12 +24,6 @@ const Navigation = () => {
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
-
-  const scrollToSection = (href: string) => {
-    const element = document.querySelector(href);
-    element?.scrollIntoView({ behavior: "smooth" });
-    setIsOpen(false);
-  };
 
   return (
     <motion.nav
@@ -45,25 +40,40 @@ const Navigation = () => {
             initial={{ opacity: 0, x: -20 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ delay: 0.2, duration: 0.6 }}
-            className="text-2xl font-bold bg-gradient-to-r from-foreground to-primary bg-clip-text text-transparent"
           >
-            AJ
+            <Link 
+              to="/" 
+              className="text-2xl font-bold bg-gradient-to-r from-foreground to-primary bg-clip-text text-transparent"
+            >
+              AJ
+            </Link>
           </motion.div>
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center gap-8">
             {navLinks.map((link, index) => (
-              <motion.button
+              <motion.div
                 key={link.name}
                 initial={{ opacity: 0, y: -20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.3 + index * 0.1, duration: 0.6 }}
-                onClick={() => scrollToSection(link.href)}
-                className="text-muted-foreground hover:text-primary transition-colors relative group"
               >
-                {link.name}
-                <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-primary transition-all duration-300 group-hover:w-full" />
-              </motion.button>
+                <Link
+                  to={link.href}
+                  className={`relative group transition-colors ${
+                    location.pathname === link.href
+                      ? "text-primary"
+                      : "text-muted-foreground hover:text-primary"
+                  }`}
+                >
+                  {link.name}
+                  <span 
+                    className={`absolute -bottom-1 left-0 h-0.5 bg-primary transition-all duration-300 ${
+                      location.pathname === link.href ? "w-full" : "w-0 group-hover:w-full"
+                    }`} 
+                  />
+                </Link>
+              </motion.div>
             ))}
           </div>
 
@@ -89,13 +99,18 @@ const Navigation = () => {
         >
           <div className="container mx-auto px-4 py-4">
             {navLinks.map((link) => (
-              <button
+              <Link
                 key={link.name}
-                onClick={() => scrollToSection(link.href)}
-                className="block w-full text-left py-3 text-muted-foreground hover:text-primary transition-colors"
+                to={link.href}
+                onClick={() => setIsOpen(false)}
+                className={`block w-full text-left py-3 transition-colors ${
+                  location.pathname === link.href
+                    ? "text-primary"
+                    : "text-muted-foreground hover:text-primary"
+                }`}
               >
                 {link.name}
-              </button>
+              </Link>
             ))}
           </div>
         </motion.div>
