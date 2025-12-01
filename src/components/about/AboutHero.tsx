@@ -31,18 +31,11 @@ const AboutHero = () => {
             className="flex-1 text-center lg:text-left"
           >
             <h1 className="text-4xl md:text-5xl font-bold mb-6 bg-gradient-to-r from-foreground to-primary bg-clip-text text-transparent">
-              About Me
+              About Me – Web Developer & Digital Creator
             </h1>
             
-            <p className="text-lg text-muted-foreground leading-relaxed mb-6">
-              I'm Arunprasath JP, a full-time freelancer passionate about creating websites, 
-              analyzing data, designing visuals, and enhancing digital visibility — powered by 
-              AI tools for smarter automation.
-            </p>
-
-            <p className="text-muted-foreground leading-relaxed mb-8">
-              With a strong foundation in technology and creative problem-solving, 
-              I help businesses transform their digital presence and make data-driven decisions.
+            <p className="text-lg text-muted-foreground leading-relaxed mb-8">
+              I'm a freelance web developer and digital creator from Salem, Tamil Nadu, helping businesses grow through modern development, data analysis, design, and marketing.
             </p>
 
             <div className="flex items-start gap-4 p-5 bg-card rounded-xl border border-border mb-8 text-left">

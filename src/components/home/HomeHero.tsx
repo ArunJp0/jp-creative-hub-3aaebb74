@@ -37,7 +37,7 @@ const HomeHero = () => {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.4, duration: 0.6 }}
-              className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4 bg-gradient-to-r from-foreground to-primary bg-clip-text text-transparent"
+              className="text-4xl md:text-5xl lg:text-6xl font-bold mb-2 bg-gradient-to-r from-foreground to-primary bg-clip-text text-transparent"
             >
               Arunprasath JP
             </motion.h1>
@@ -46,9 +46,9 @@ const HomeHero = () => {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.5, duration: 0.6 }}
-              className="text-xl md:text-2xl text-primary font-medium mb-2"
+              className="text-xl md:text-2xl text-primary font-medium mb-4"
             >
-              Freelance Web Developer in Tamil Nadu
+              Freelance Web Developer in Tamilnadu
             </motion.p>
 
             <motion.p
@@ -57,7 +57,7 @@ const HomeHero = () => {
               transition={{ delay: 0.6, duration: 0.6 }}
               className="text-lg text-muted-foreground mb-4"
             >
-              Web Developer | Data Analyst | Digital Marketer | AI-powered Solutions
+              Data Analyst | Digital Marketer
             </motion.p>
 
             <motion.p
@@ -66,7 +66,7 @@ const HomeHero = () => {
               transition={{ delay: 0.7, duration: 0.6 }}
               className="text-muted-foreground mb-8 max-w-xl leading-relaxed"
             >
-              Transforming ideas into modern websites, smart data insights, and effective digital growth.
+              I build fast, modern websites, insightful dashboards, and professional designs for businesses across Tamil Nadu and India.
             </motion.p>
 
             <motion.div
