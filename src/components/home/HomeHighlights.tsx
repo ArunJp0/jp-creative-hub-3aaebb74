@@ -6,7 +6,7 @@ import { Target, Rocket, BarChart3, Globe, Star, Zap } from "lucide-react";
 const achievements = [
   { icon: Target, value: "10+", label: "Projects Delivered" },
   { icon: Globe, value: "10+", label: "Modern Websites" },
-  { icon: BarChart3, value: "25+", label: "Power BI Dashboards" },
+  { icon: BarChart3, value: "5+", label: "Power BI Dashboards" },
   { icon: Rocket, value: "35%", label: "Conversion Boost" },
   { icon: Star, value: "6+", label: "Years Experience" },
   { icon: Zap, value: "100%", label: "On-Time Delivery" },
