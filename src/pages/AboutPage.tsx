@@ -12,13 +12,13 @@ const AboutPage = () => {
   return (
     <>
       <Helmet>
-        <title>About Arunprasath JP | Freelance Web Developer & Data Analyst in Tamil Nadu</title>
+        <title>About Me | Freelance Web Developer & Digital Creator in Tamil Nadu</title>
         <meta 
           name="description" 
-          content="Learn about Arunprasath JP, a freelance web developer and data analyst in Salem, Tamil Nadu with 6+ years of experience. Skills, achievements, and working process." 
+          content="Learn about my expertise in web development, data analysis, digital marketing & design. Based in Salem, Tamil Nadu, helping businesses grow with modern digital solutions." 
         />
         <meta name="keywords" content="Arunprasath JP, freelance web developer Salem, data analyst Tamil Nadu, React developer, digital marketer Chennai" />
-        <link rel="canonical" href="https://arunprasathjp.com/about" />
+        <link rel="canonical" href="https://arunjpwork.online/about" />
       </Helmet>
       <div className="min-h-screen bg-background text-foreground">
         <Navigation />

@@ -10,13 +10,13 @@ const PortfolioPage = () => {
   return (
     <>
       <Helmet>
-        <title>Portfolio | Web Development & Data Analysis Projects by Arunprasath JP</title>
+        <title>Portfolio & Case Studies | Websites, Dashboards, Designs – Arunprasath</title>
         <meta 
           name="description" 
-          content="View portfolio of websites, Power BI dashboards, and digital marketing campaigns by Arunprasath JP. Successful projects for clients in Tamil Nadu and internationally." 
+          content="Explore my web development projects, data analysis dashboards, and branding designs delivered to clients in Salem, Chennai & across India." 
         />
         <meta name="keywords" content="web development portfolio, Power BI dashboard examples, React projects, digital marketing case studies, freelance developer portfolio" />
-        <link rel="canonical" href="https://arunprasathjp.com/portfolio" />
+        <link rel="canonical" href="https://arunjpwork.online/portfolio" />
       </Helmet>
       <div className="min-h-screen bg-background text-foreground">
         <Navigation />

@@ -18,7 +18,7 @@ const AboutHero = () => {
               <div className="absolute inset-0 bg-primary rounded-full blur-3xl opacity-20"></div>
               <img
                 src={profileImg}
-                alt="Arunprasath JP - Freelance Web Developer"
+                alt="Arunprasath - Freelance Web Developer and Digital Creator"
                 className="relative w-64 h-64 md:w-72 md:h-72 rounded-full object-cover object-center border-4 border-primary shadow-glow"
               />
             </div>
