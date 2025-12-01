@@ -12,11 +12,10 @@ const ContactHero = () => {
           className="max-w-3xl mx-auto text-center"
         >
           <h1 className="text-4xl md:text-5xl font-bold mb-6 bg-gradient-to-r from-foreground to-primary bg-clip-text text-transparent">
-            Let's Work Together
+            Contact Arunprasath – Hire a Freelance Web Developer in Salem
           </h1>
           <p className="text-lg text-muted-foreground leading-relaxed mb-8">
-            Have a project in mind? I'm here to help you bring your ideas to life. 
-            Reach out and let's discuss how we can work together.
+            Need a website, dashboard, or digital marketing support? Reach out to start your project anywhere in Salem, Chennai, or Tamil Nadu.
           </p>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-6">

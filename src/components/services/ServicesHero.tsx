@@ -11,11 +11,10 @@ const ServicesHero = () => {
           className="max-w-3xl mx-auto text-center"
         >
           <h1 className="text-4xl md:text-5xl font-bold mb-6 bg-gradient-to-r from-foreground to-primary bg-clip-text text-transparent">
-            My Services
+            Web Development, Digital Marketing & Data Analytics Services
           </h1>
           <p className="text-lg text-muted-foreground leading-relaxed">
-            From modern websites to smart data dashboards and effective marketing campaigns — 
-            I offer end-to-end digital solutions to help your business grow.
+            I provide website development, SEO, branding, Power BI dashboards, and digital marketing services for small businesses across Tamil Nadu and India.
           </p>
         </motion.div>
       </div>

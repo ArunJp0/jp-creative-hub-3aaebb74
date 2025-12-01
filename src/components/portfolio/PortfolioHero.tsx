@@ -11,11 +11,10 @@ const PortfolioHero = () => {
           className="max-w-3xl mx-auto text-center"
         >
           <h1 className="text-4xl md:text-5xl font-bold mb-6 bg-gradient-to-r from-foreground to-primary bg-clip-text text-transparent">
-            My Portfolio
+            My Portfolio – Websites, Dashboards & Design Projects
           </h1>
           <p className="text-lg text-muted-foreground leading-relaxed">
-            A showcase of my work across web development, data analysis, and digital marketing. 
-            Each project represents real results delivered to clients.
+            Explore my completed projects, including websites, data dashboards, and branding work delivered for clients in Salem, Chennai, and across India.
           </p>
         </motion.div>
       </div>
