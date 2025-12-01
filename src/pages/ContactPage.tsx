@@ -9,13 +9,13 @@ const ContactPage = () => {
   return (
     <>
       <Helmet>
-        <title>Contact Arunprasath JP | Hire Freelance Web Developer in Tamil Nadu</title>
+        <title>Hire Freelance Web Developer in Salem | Contact Arunprasath</title>
         <meta 
           name="description" 
-          content="Contact Arunprasath JP for web development, data analysis, and digital marketing services. Freelance web developer in Salem, Chennai, Tamil Nadu. Get a free consultation." 
+          content="Need a website, dashboard or digital marketing support? Contact me for freelancing services in Tamil Nadu, Chennai, Salem and across India." 
         />
         <meta name="keywords" content="hire freelance web developer, contact web developer Salem, freelancer Tamil Nadu, web development quote, digital marketing consultation" />
-        <link rel="canonical" href="https://arunprasathjp.com/contact" />
+        <link rel="canonical" href="https://arunjpwork.online/contact" />
       </Helmet>
       <div className="min-h-screen bg-background text-foreground">
         <Navigation />

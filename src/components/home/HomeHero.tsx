@@ -106,7 +106,7 @@ const HomeHero = () => {
               <div className="absolute inset-0 bg-primary rounded-full blur-3xl opacity-30 animate-pulse"></div>
               <img
                 src={profileImg}
-                alt="Arunprasath JP - Freelance Web Developer in Salem, Tamil Nadu"
+                alt="Freelance Web Developer in Salem - Arunprasath"
                 className="relative w-64 h-64 md:w-80 md:h-80 lg:w-96 lg:h-96 rounded-full object-cover object-center border-4 border-primary shadow-glow"
               />
             </div>
