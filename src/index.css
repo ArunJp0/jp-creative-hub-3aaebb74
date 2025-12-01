@@ -64,4 +64,13 @@ All colors MUST be HSL.
   body {
     @apply bg-background text-foreground;
   }
+
+  /* Custom font size overrides */
+  .text-4xl {
+    font-size: 1.25rem;
+  }
+  
+  .md\:text-5xl {
+    font-size: 2rem;
+  }
 }
