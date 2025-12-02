@@ -2,34 +2,34 @@ import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { Download, GraduationCap } from "lucide-react";
 import profileImg from "@/assets/profile.jpg";
-
 const AboutHero = () => {
-  return (
-    <section className="pt-32 pb-20 bg-section-bg">
+  return <section className="pt-32 pb-20 bg-section-bg">
       <div className="container mx-auto px-4">
         <div className="flex flex-col lg:flex-row items-center gap-12 max-w-6xl mx-auto">
-          <motion.div
-            initial={{ opacity: 0, scale: 0.8 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{ duration: 0.8 }}
-            className="flex-shrink-0"
-          >
+          <motion.div initial={{
+          opacity: 0,
+          scale: 0.8
+        }} animate={{
+          opacity: 1,
+          scale: 1
+        }} transition={{
+          duration: 0.8
+        }} className="flex-shrink-0">
             <div className="relative">
               <div className="absolute inset-0 bg-primary rounded-full blur-3xl opacity-20"></div>
-              <img
-                src={profileImg}
-                alt="Arunprasath - Freelance Web Developer and Digital Creator"
-                className="relative w-64 h-64 md:w-72 md:h-72 rounded-full object-cover object-center border-4 border-primary shadow-glow"
-              />
+              <img alt="Arunprasath - Freelance Web Developer and Digital Creator" className="relative w-64 h-64 md:w-72 md:h-72 rounded-full object-cover object-center border-4 border-primary shadow-glow" src="/lovable-uploads/e11182f5-477f-47ba-a776-57523c827e1f.png" />
             </div>
           </motion.div>
 
-          <motion.div
-            initial={{ opacity: 0, x: 50 }}
-            animate={{ opacity: 1, x: 0 }}
-            transition={{ duration: 0.8 }}
-            className="flex-1 text-center lg:text-left"
-          >
+          <motion.div initial={{
+          opacity: 0,
+          x: 50
+        }} animate={{
+          opacity: 1,
+          x: 0
+        }} transition={{
+          duration: 0.8
+        }} className="flex-1 text-center lg:text-left">
             <h1 className="text-4xl md:text-5xl font-bold mb-6 bg-gradient-to-r from-foreground to-primary bg-clip-text text-transparent">
               About Me – Web Developer & Digital Creator
             </h1>
@@ -52,17 +52,8 @@ const AboutHero = () => {
               </div>
             </div>
 
-            <Button
-              size="lg"
-              className="bg-primary hover:bg-primary/90 text-primary-foreground shadow-glow group"
-              asChild
-            >
-              <a 
-                href="/Arunprasath_JP_Resume.pdf" 
-                target="_blank"
-                rel="noopener noreferrer"
-                download="Arunprasath_JP_Resume.pdf"
-              >
+            <Button size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground shadow-glow group" asChild>
+              <a href="/Arunprasath_JP_Resume.pdf" target="_blank" rel="noopener noreferrer" download="Arunprasath_JP_Resume.pdf">
                 Download Resume
                 <Download className="ml-2 h-5 w-5 group-hover:translate-y-1 transition-transform" />
               </a>
@@ -70,8 +61,6 @@ const AboutHero = () => {
           </motion.div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default AboutHero;
