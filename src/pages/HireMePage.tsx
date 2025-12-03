@@ -1,8 +1,12 @@
 import { Helmet } from "react-helmet-async";
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
-import { ArrowRight, Globe, Target, TrendingUp, Palette, BarChart3, Star, Phone, MessageCircle } from "lucide-react";
+import { ArrowRight, Globe, Target, TrendingUp, Palette, BarChart3, Star, Phone, MessageCircle, Mail } from "lucide-react";
 import heroBg from "@/assets/hero-bg.jpg";
+import HireMeStruggles from "@/components/hire-me/HireMeStruggles";
+import HireMeFAQ from "@/components/hire-me/HireMeFAQ";
+import HireMeAchievements from "@/components/hire-me/HireMeAchievements";
+import HireMeFooter from "@/components/hire-me/HireMeFooter";
 
 const fadeInUp = {
   initial: { opacity: 0, y: 30 },
@@ -57,6 +61,18 @@ const HireMePage = () => {
     {
       quote: "The dashboard helped us understand our sales patterns and make smarter decisions.",
       author: "International Power BI Client"
+    },
+    {
+      quote: "We saw better lead quality and increased website inquiries within 3 weeks.",
+      author: "Priya M., Chennai Boutique Owner"
+    },
+    {
+      quote: "Very fast delivery, clear communication, and the design was exactly what we wanted.",
+      author: "Gokul Trading, Salem"
+    },
+    {
+      quote: "Our ads campaign finally worked. We wasted money before — now we get real leads.",
+      author: "Rishi V., Coimbatore Digital Store"
     }
   ];
 
@@ -120,7 +136,7 @@ const HireMePage = () => {
               >
                 <Button
                   size="lg"
-                  className="bg-primary hover:bg-primary/90 text-primary-foreground shadow-glow group animate-pulse hover:animate-none transition-all duration-300 hover:scale-105"
+                  className="bg-primary hover:bg-primary/90 text-primary-foreground shadow-glow group animate-pulse hover:animate-none transition-all duration-300 hover:scale-105 hover:shadow-[0_0_50px_hsl(174_72%_56%/0.4)]"
                   asChild
                 >
                   <a href="https://calendly.com/arunprasath-jp/30min" target="_blank" rel="noopener noreferrer">
@@ -131,10 +147,10 @@ const HireMePage = () => {
                 <Button
                   size="lg"
                   variant="outline"
-                  className="border-primary text-primary hover:bg-primary hover:text-primary-foreground transition-all duration-300 hover:scale-105"
+                  className="border-primary text-primary hover:bg-primary hover:text-primary-foreground transition-all duration-300 hover:scale-105 hover:shadow-[0_0_30px_hsl(174_72%_56%/0.3)]"
                   asChild
                 >
-                  <a href="mailto:arunprasath.jp@outlook.com">
+                  <a href="mailto:prasathjp95@gmail.com">
                     📩 Get a Quote
                   </a>
                 </Button>
@@ -158,8 +174,11 @@ const HireMePage = () => {
           </motion.div>
         </section>
 
-        {/* SECTION 2 - WHO AM I */}
-        <section className="py-20 bg-section-bg">
+        {/* SECTION 2 - STRUGGLES */}
+        <HireMeStruggles />
+
+        {/* SECTION 3 - WHO AM I */}
+        <section className="py-20 bg-background">
           <div className="container mx-auto px-4">
             <motion.div {...fadeInUp} className="max-w-3xl mx-auto text-center">
               <h2 className="text-2xl md:text-3xl font-bold mb-6 text-foreground">
@@ -172,8 +191,8 @@ const HireMePage = () => {
           </div>
         </section>
 
-        {/* SECTION 3 - WHAT I DO */}
-        <section className="py-20 bg-background">
+        {/* SECTION 4 - WHAT I DO */}
+        <section className="py-20 bg-section-bg">
           <div className="container mx-auto px-4">
             <motion.div {...fadeInUp} className="text-center mb-12">
               <h2 className="text-2xl md:text-3xl font-bold mb-4 text-foreground">
@@ -207,8 +226,8 @@ const HireMePage = () => {
           </div>
         </section>
 
-        {/* SECTION 4 - PROBLEMS I SOLVE */}
-        <section className="py-20 bg-section-bg">
+        {/* SECTION 5 - PROBLEMS I SOLVE */}
+        <section className="py-20 bg-background">
           <div className="container mx-auto px-4">
             <motion.div {...fadeInUp} className="text-center mb-12">
               <h2 className="text-2xl md:text-3xl font-bold mb-4 text-foreground">
@@ -244,8 +263,8 @@ const HireMePage = () => {
           </div>
         </section>
 
-        {/* SECTION 5 - TESTIMONIALS */}
-        <section className="py-20 bg-background">
+        {/* SECTION 6 - TESTIMONIALS */}
+        <section className="py-20 bg-section-bg">
           <div className="container mx-auto px-4">
             <motion.div {...fadeInUp} className="text-center mb-12">
               <h2 className="text-2xl md:text-3xl font-bold mb-4 text-foreground">
@@ -253,13 +272,13 @@ const HireMePage = () => {
               </h2>
             </motion.div>
 
-            <div className="max-w-4xl mx-auto grid md:grid-cols-3 gap-6">
+            <div className="max-w-5xl mx-auto grid md:grid-cols-2 lg:grid-cols-3 gap-6">
               {testimonials.map((testimonial, index) => (
                 <motion.div
                   key={index}
                   {...fadeInUp}
-                  transition={{ delay: index * 0.15, duration: 0.6 }}
-                  className="p-6 rounded-xl bg-card border border-border/50 hover:border-primary/30 transition-all duration-300 hover:shadow-glow"
+                  transition={{ delay: index * 0.1, duration: 0.6 }}
+                  className="p-6 rounded-xl bg-card border border-border/50 hover:border-primary/30 transition-all duration-300 hover:shadow-[0_0_30px_hsl(174_72%_56%/0.15)]"
                 >
                   <div className="flex gap-1 mb-4">
                     {[...Array(5)].map((_, i) => (
@@ -274,7 +293,13 @@ const HireMePage = () => {
           </div>
         </section>
 
-        {/* SECTION 6 - THE OFFER */}
+        {/* SECTION 7 - FAQ */}
+        <HireMeFAQ />
+
+        {/* SECTION 8 - ACHIEVEMENTS */}
+        <HireMeAchievements />
+
+        {/* SECTION 9 - THE OFFER */}
         <section className="py-20 bg-gradient-dark">
           <div className="container mx-auto px-4">
             <motion.div {...fadeInUp} className="max-w-2xl mx-auto text-center">
@@ -301,17 +326,17 @@ const HireMePage = () => {
           </div>
         </section>
 
-        {/* SECTION 7 - FINAL CTA */}
+        {/* SECTION 10 - FINAL CTA */}
         <section className="py-20 bg-section-bg">
           <div className="container mx-auto px-4">
             <motion.div {...fadeInUp} className="max-w-2xl mx-auto text-center">
               <h2 className="text-2xl md:text-3xl font-bold mb-8 text-foreground">
                 Let's Build Something That Works.
               </h2>
-              <div className="flex flex-col sm:flex-row gap-4 justify-center mb-6">
+              <div className="flex flex-col sm:flex-row gap-4 justify-center mb-4">
                 <Button
                   size="lg"
-                  className="bg-primary hover:bg-primary/90 text-primary-foreground shadow-glow group transition-all duration-300 hover:scale-105"
+                  className="bg-primary hover:bg-primary/90 text-primary-foreground shadow-glow group transition-all duration-300 hover:scale-105 hover:shadow-[0_0_50px_hsl(174_72%_56%/0.4)]"
                   asChild
                 >
                   <a href="https://calendly.com/arunprasath-jp/30min" target="_blank" rel="noopener noreferrer">
@@ -322,12 +347,36 @@ const HireMePage = () => {
                 <Button
                   size="lg"
                   variant="outline"
-                  className="border-primary text-primary hover:bg-primary hover:text-primary-foreground transition-all duration-300 hover:scale-105"
+                  className="border-primary text-primary hover:bg-primary hover:text-primary-foreground transition-all duration-300 hover:scale-105 hover:shadow-[0_0_30px_hsl(174_72%_56%/0.3)]"
                   asChild
                 >
                   <a href="https://wa.me/919500414428" target="_blank" rel="noopener noreferrer">
                     <MessageCircle className="mr-2 h-5 w-5" />
                     💬 Send Inquiry on WhatsApp
+                  </a>
+                </Button>
+              </div>
+              <div className="flex flex-col sm:flex-row gap-4 justify-center mb-6">
+                <Button
+                  size="lg"
+                  variant="ghost"
+                  className="text-muted-foreground hover:text-primary transition-all duration-300 hover:scale-105"
+                  asChild
+                >
+                  <a href="mailto:prasathjp95@gmail.com">
+                    <Mail className="mr-2 h-5 w-5" />
+                    📧 prasathjp95@gmail.com
+                  </a>
+                </Button>
+                <Button
+                  size="lg"
+                  variant="ghost"
+                  className="text-muted-foreground hover:text-primary transition-all duration-300 hover:scale-105"
+                  asChild
+                >
+                  <a href="tel:+918072170740">
+                    <Phone className="mr-2 h-5 w-5" />
+                    📞 +91 80721 70740
                   </a>
                 </Button>
               </div>
@@ -337,6 +386,9 @@ const HireMePage = () => {
             </motion.div>
           </div>
         </section>
+
+        {/* FOOTER */}
+        <HireMeFooter />
       </main>
     </>
   );
