@@ -34,7 +34,7 @@ const HireMeFooter = () => {
               GitHub
             </a>
             <a
-              href="https://www.instagram.com/itechworkss/"
+              href="https://www.instagram.com/aruni_digital9/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-muted-foreground hover:text-primary transition-colors flex items-center gap-2 text-sm"
