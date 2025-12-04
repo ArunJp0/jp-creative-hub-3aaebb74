@@ -7,7 +7,7 @@ import HireMeStruggles from "@/components/hire-me/HireMeStruggles";
 import HireMeFAQ from "@/components/hire-me/HireMeFAQ";
 import HireMeAchievements from "@/components/hire-me/HireMeAchievements";
 import HireMeFooter from "@/components/hire-me/HireMeFooter";
-
+import HireMeContactForm from "@/components/hire-me/HireMeContactForm";
 const fadeInUp = {
   initial: { opacity: 0, y: 30 },
   whileInView: { opacity: 1, y: 0 },
@@ -139,7 +139,7 @@ const HireMePage = () => {
                   className="bg-primary hover:bg-primary/90 text-primary-foreground shadow-glow group animate-pulse hover:animate-none transition-all duration-300 hover:scale-105 hover:shadow-[0_0_50px_hsl(174_72%_56%/0.4)]"
                   asChild
                 >
-                  <a href="https://calendly.com/arunprasath-jp/30min" target="_blank" rel="noopener noreferrer">
+                  <a href="tel:+918072170740">
                     🚀 Book a Free Strategy Call
                     <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
                   </a>
@@ -317,7 +317,7 @@ const HireMePage = () => {
                 className="bg-primary hover:bg-primary/90 text-primary-foreground shadow-glow group transition-all duration-300 hover:scale-110 hover:shadow-[0_0_60px_hsl(174_72%_56%/0.5)]"
                 asChild
               >
-                <a href="https://calendly.com/arunprasath-jp/30min" target="_blank" rel="noopener noreferrer">
+                <a href="tel:+918072170740">
                   🔥 Schedule Free Strategy Call
                   <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
                 </a>
@@ -329,7 +329,7 @@ const HireMePage = () => {
         {/* SECTION 10 - FINAL CTA */}
         <section className="py-20 bg-section-bg">
           <div className="container mx-auto px-4">
-            <motion.div {...fadeInUp} className="max-w-2xl mx-auto text-center">
+            <motion.div {...fadeInUp} className="max-w-2xl mx-auto text-center mb-12">
               <h2 className="text-2xl md:text-3xl font-bold mb-8 text-foreground">
                 Let's Build Something That Works.
               </h2>
@@ -339,7 +339,7 @@ const HireMePage = () => {
                   className="bg-primary hover:bg-primary/90 text-primary-foreground shadow-glow group transition-all duration-300 hover:scale-105 hover:shadow-[0_0_50px_hsl(174_72%_56%/0.4)]"
                   asChild
                 >
-                  <a href="https://calendly.com/arunprasath-jp/30min" target="_blank" rel="noopener noreferrer">
+                  <a href="tel:+918072170740">
                     <Phone className="mr-2 h-5 w-5" />
                     🚀 Book Call
                   </a>
@@ -350,7 +350,7 @@ const HireMePage = () => {
                   className="border-primary text-primary hover:bg-primary hover:text-primary-foreground transition-all duration-300 hover:scale-105 hover:shadow-[0_0_30px_hsl(174_72%_56%/0.3)]"
                   asChild
                 >
-                  <a href="https://wa.me/919500414428" target="_blank" rel="noopener noreferrer">
+                  <a href="https://wa.me/918072170740" target="_blank" rel="noopener noreferrer">
                     <MessageCircle className="mr-2 h-5 w-5" />
                     💬 Send Inquiry on WhatsApp
                   </a>
@@ -380,10 +380,13 @@ const HireMePage = () => {
                   </a>
                 </Button>
               </div>
-              <p className="text-sm text-muted-foreground">
+              <p className="text-sm text-muted-foreground mb-12">
                 No spam. No pushy sales. You only get honest guidance.
               </p>
             </motion.div>
+            
+            {/* Contact Form */}
+            <HireMeContactForm />
           </div>
         </section>
 

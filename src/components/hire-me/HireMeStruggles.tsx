@@ -59,7 +59,7 @@ const HireMeStruggles = () => {
             className="bg-primary hover:bg-primary/90 text-primary-foreground shadow-glow group transition-all duration-300 hover:scale-105 hover:shadow-[0_0_50px_hsl(174_72%_56%/0.4)]"
             asChild
           >
-            <a href="https://calendly.com/arunprasath-jp/30min" target="_blank" rel="noopener noreferrer">
+            <a href="tel:+918072170740">
               🔹 Book Free Strategy Call
               <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
             </a>
