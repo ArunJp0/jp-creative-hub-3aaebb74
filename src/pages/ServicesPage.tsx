@@ -11,11 +11,7 @@ const ServicesPage = () => {
     <>
       <Helmet>
         <title>Web Development & Digital Services | Freelance Web Developer in Salem</title>
-        <meta 
-          name="description" 
-          content="Offering business websites, landing pages, digital marketing, branding and analytics solutions for companies in Salem, Chennai and across Tamil Nadu." 
-        />
-        <meta name="keywords" content="web development services Salem, data analysis Tamil Nadu, digital marketing Chennai, Power BI dashboard, React development, freelance graphic designer" />
+        <meta name="description" content="Offering business websites, landing pages, digital marketing, branding and analytics solutions for companies in Salem, Chennai and across Tamil Nadu." />
         <link rel="canonical" href="https://arunjpwork.online/services" />
       </Helmet>
       <div className="min-h-screen bg-background text-foreground">

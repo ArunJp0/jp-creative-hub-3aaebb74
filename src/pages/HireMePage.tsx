@@ -81,21 +81,7 @@ const HireMePage = () => {
       <Helmet>
         <title>Hire Freelance Web Developer in Salem | Professional Business Websites</title>
         <meta name="description" content="Get a high-converting website from Arunprasath, a trusted freelance web developer and digital marketer in Salem, Tamil Nadu. Designed for leads and growth." />
-        <meta name="keywords" content="hire freelance web developer, web developer Salem, digital marketing Tamil Nadu, website development India, business growth online, freelance web developer Tamil Nadu, SEO services Chennai" />
         <link rel="canonical" href="https://arunjpwork.online/hire-me" />
-        
-        {/* Open Graph Tags */}
-        <meta property="og:title" content="Hire a Freelance Web Developer in Tamil Nadu" />
-        <meta property="og:description" content="Website + SEO + Ads + Analytics. Built for results, not just design." />
-        <meta property="og:image" content="https://arunjpwork.online/lovable-uploads/d5003cad-6c88-45be-b3d4-910ebc8ef81f.png" />
-        <meta property="og:url" content="https://arunjpwork.online/hire-me" />
-        <meta property="og:type" content="website" />
-        
-        {/* Twitter Card Tags */}
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Hire a Freelance Web Developer in Tamil Nadu" />
-        <meta name="twitter:description" content="Website + SEO + Ads + Analytics. Built for results, not just design." />
-        <meta name="twitter:image" content="https://arunjpwork.online/lovable-uploads/d5003cad-6c88-45be-b3d4-910ebc8ef81f.png" />
       </Helmet>
 
       <main className="min-h-screen bg-background">

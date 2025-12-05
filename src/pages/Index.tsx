@@ -11,11 +11,7 @@ const Index = () => {
     <>
       <Helmet>
         <title>Freelance Web Developer in Salem | Best Freelance Web Developer in Salem | Arunprasath JP</title>
-        <meta 
-          name="description" 
-          content="Professional freelance web developer in Salem delivering modern websites, branding, SEO and digital solutions for businesses in Tamil Nadu and across India." 
-        />
-        <meta name="keywords" content="freelance web developer Salem, digital marketer Tamil Nadu, React developer Chennai, web development, data analysis, Power BI dashboard" />
+        <meta name="description" content="Professional freelance web developer in Salem delivering modern websites, branding, SEO and digital solutions for businesses in Tamil Nadu and across India." />
         <link rel="canonical" href="https://arunjpwork.online" />
       </Helmet>
       <div className="min-h-screen bg-background text-foreground">

@@ -11,11 +11,7 @@ const PortfolioPage = () => {
     <>
       <Helmet>
         <title>Portfolio | Freelance Web Developer & Digital Projects | Salem Tamil Nadu</title>
-        <meta 
-          name="description" 
-          content="Explore websites, marketing work, dashboards and branding projects delivered to clients across Salem, Chennai, Coimbatore and international brands." 
-        />
-        <meta name="keywords" content="web development portfolio, Power BI dashboard examples, React projects, digital marketing case studies, freelance developer portfolio" />
+        <meta name="description" content="Explore websites, marketing work, dashboards and branding projects delivered to clients across Salem, Chennai, Coimbatore and international brands." />
         <link rel="canonical" href="https://arunjpwork.online/portfolio" />
       </Helmet>
       <div className="min-h-screen bg-background text-foreground">
