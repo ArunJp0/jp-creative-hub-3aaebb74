@@ -13,11 +13,7 @@ const AboutPage = () => {
     <>
       <Helmet>
         <title>About Arunprasath JP | Best Freelance Web Developer in Salem & Tamil Nadu</title>
-        <meta 
-          name="description" 
-          content="Learn about my journey as a freelance web developer in Salem helping businesses with modern websites, branding and digital transformation across Tamil Nadu." 
-        />
-        <meta name="keywords" content="Arunprasath JP, freelance web developer Salem, data analyst Tamil Nadu, React developer, digital marketer Chennai" />
+        <meta name="description" content="Learn about my journey as a freelance web developer in Salem helping businesses with modern websites, branding and digital transformation across Tamil Nadu." />
         <link rel="canonical" href="https://arunjpwork.online/about" />
       </Helmet>
       <div className="min-h-screen bg-background text-foreground">
