@@ -10,13 +10,13 @@ const Index = () => {
   return (
     <>
       <Helmet>
-        <title>Arunprasath JP | Freelance Web Developer in Salem | Digital Marketer & Designer</title>
+        <title>Freelance Web Developer in Salem | Best Freelance Web Developer in Salem | Arunprasath JP</title>
         <meta 
           name="description" 
-          content="Looking for a freelance web developer in Salem or Tamil Nadu? I create fast, modern websites, data dashboards, graphic designs & digital marketing solutions for businesses across India." 
+          content="Professional freelance web developer in Salem delivering modern websites, branding, SEO and digital solutions for businesses in Tamil Nadu and across India." 
         />
         <meta name="keywords" content="freelance web developer Salem, digital marketer Tamil Nadu, React developer Chennai, web development, data analysis, Power BI dashboard" />
-        <link rel="canonical" href="https://arunjpwork.online/" />
+        <link rel="canonical" href="https://arunjpwork.online" />
       </Helmet>
       <div className="min-h-screen bg-background text-foreground">
         <Navigation />

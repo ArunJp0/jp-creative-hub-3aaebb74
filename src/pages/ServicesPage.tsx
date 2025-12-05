@@ -10,10 +10,10 @@ const ServicesPage = () => {
   return (
     <>
       <Helmet>
-        <title>Web Development, Digital Marketing & Data Analytics Services – Salem, Tamil Nadu</title>
+        <title>Web Development & Digital Services | Freelance Web Developer in Salem</title>
         <meta 
           name="description" 
-          content="Offering website development, PowerBI dashboards, branding, SEO & digital marketing services for small businesses across Tamil Nadu and India." 
+          content="Offering business websites, landing pages, digital marketing, branding and analytics solutions for companies in Salem, Chennai and across Tamil Nadu." 
         />
         <meta name="keywords" content="web development services Salem, data analysis Tamil Nadu, digital marketing Chennai, Power BI dashboard, React development, freelance graphic designer" />
         <link rel="canonical" href="https://arunjpwork.online/services" />
