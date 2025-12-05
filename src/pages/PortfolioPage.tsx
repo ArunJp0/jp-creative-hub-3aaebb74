@@ -10,10 +10,10 @@ const PortfolioPage = () => {
   return (
     <>
       <Helmet>
-        <title>Portfolio & Case Studies | Websites, Dashboards, Designs – Arunprasath</title>
+        <title>Portfolio | Freelance Web Developer & Digital Projects | Salem Tamil Nadu</title>
         <meta 
           name="description" 
-          content="Explore my web development projects, data analysis dashboards, and branding designs delivered to clients in Salem, Chennai & across India." 
+          content="Explore websites, marketing work, dashboards and branding projects delivered to clients across Salem, Chennai, Coimbatore and international brands." 
         />
         <meta name="keywords" content="web development portfolio, Power BI dashboard examples, React projects, digital marketing case studies, freelance developer portfolio" />
         <link rel="canonical" href="https://arunjpwork.online/portfolio" />
