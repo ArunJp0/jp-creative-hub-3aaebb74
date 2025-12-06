@@ -8,6 +8,7 @@ import HireMeFAQ from "@/components/hire-me/HireMeFAQ";
 import HireMeAchievements from "@/components/hire-me/HireMeAchievements";
 import HireMeFooter from "@/components/hire-me/HireMeFooter";
 import HireMeContactForm from "@/components/hire-me/HireMeContactForm";
+import HireMePortfolioGallery from "@/components/hire-me/HireMePortfolioGallery";
 const fadeInUp = {
   initial: { opacity: 0, y: 30 },
   whileInView: { opacity: 1, y: 0 },
@@ -292,7 +293,10 @@ const HireMePage = () => {
           </div>
         </section>
 
-        {/* SECTION 7 - FAQ */}
+        {/* SECTION 7 - RECENT WORK & RESULTS */}
+        <HireMePortfolioGallery />
+
+        {/* SECTION 8 - FAQ */}
         <HireMeFAQ />
 
         {/* SECTION 8 - ACHIEVEMENTS */}
