@@ -11,12 +11,12 @@ const fadeInUp = {
 };
 
 const portfolioImages = [
-  { id: 1, src: "https://via.placeholder.com/400x250?text=Project+Preview+1", alt: "Project Preview 1" },
-  { id: 2, src: "https://via.placeholder.com/400x250?text=Project+Preview+2", alt: "Project Preview 2" },
-  { id: 3, src: "https://via.placeholder.com/400x250?text=Project+Preview+3", alt: "Project Preview 3" },
-  { id: 4, src: "https://via.placeholder.com/400x250?text=Project+Preview+4", alt: "Project Preview 4" },
-  { id: 5, src: "https://via.placeholder.com/400x250?text=Project+Preview+5", alt: "Project Preview 5" },
-  { id: 6, src: "https://via.placeholder.com/400x250?text=Project+Preview+6", alt: "Project Preview 6" },
+  { id: 1, src: "/lovable-uploads/digital-marketing-results.webp", alt: "Salon client website project – web development project in salem" },
+  { id: 2, src: "/lovable-uploads/ecommerce-website-project.webp", alt: "Education website project – Freelance web development in salem" },
+  { id: 3, src: "/lovable-uploads/portfolio-website-react.webp", alt: "Professional react portfolio website in Tamil Nadu" },
+  { id: 4, src: "/lovable-uploads/powerbi-dashboard-analysis.webp", alt: "Power BI dashboard created for international client – data analysis project" },
+  { id: 5, src: "/lovable-uploads/salem-website-development-client.webp", alt: "Construction website development in salem" },
+  { id: 6, src: "/lovable-uploads/web-developmet-in-salem.webp", alt: "Education website development in chennai" },
 ];
 
 const HireMePortfolioGallery = () => {
