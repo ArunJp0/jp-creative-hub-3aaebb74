@@ -59,7 +59,7 @@ const services = [
   {
     icon: Cpu,
     title: "AI-Assisted Solutions",
-    description: "Leverage AI tools for smarter automation, chatbots, and data-driven workflows.",
+    description: "Leverage AI tools for smarter automation, chatbots, chatbots, and data-driven workflows.",
     features: [
       "AI chatbot integration",
       "Process automation",
@@ -68,6 +68,19 @@ const services = [
       "Workflow optimization",
     ],
     gradient: "from-indigo-500 to-violet-500",
+  },
+  {
+    icon: Database,
+    title: "ERP Billing Software",
+    description: "Custom web-based ERP and billing software tailored for textile shops, saree stores, garment shops and retail businesses in Tamil Nadu.",
+    features: [
+      "GST billing & invoice generation",
+      "Inventory & stock management",
+      "Sales, purchase & expense tracking",
+      "Multi-user role-based access",
+      "Daily, monthly & yearly reports",
+    ],
+    gradient: "from-rose-500 to-pink-500",
   },
 ];
 
