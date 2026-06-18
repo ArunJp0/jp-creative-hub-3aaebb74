@@ -59,7 +59,7 @@ const services = [
   {
     icon: Cpu,
     title: "AI-Assisted Solutions",
-    description: "Leverage AI tools for smarter automation, chatbots, chatbots, and data-driven workflows.",
+    description: "Leverage AI tools for smarter automation, chatbots, and data-driven workflows.",
     features: [
       "AI chatbot integration",
       "Process automation",
