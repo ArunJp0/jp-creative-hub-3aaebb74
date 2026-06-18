@@ -38,6 +38,13 @@ const portfolioProjects = {
       icon: Code2,
       impact: "Complete online store with payment integration",
     },
+    {
+      title: "Naga Silks Salem",
+      description: "Web-based ERP billing software built for a textile shop to manage inventory, GST billing, sales, purchases and daily reports.",
+      tech: ["React", "Python"],
+      icon: Code2,
+      impact: "Streamlined billing and inventory tracking for retail operations",
+    },
   ],
   data: [
     {

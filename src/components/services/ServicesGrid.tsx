@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { useInView } from "framer-motion";
 import { useRef } from "react";
-import { Globe, TrendingUp, BarChart3, Palette, Cpu, CheckCircle2 } from "lucide-react";
+import { Globe, TrendingUp, BarChart3, Palette, Cpu, Database, CheckCircle2 } from "lucide-react";
 
 const services = [
   {
@@ -68,6 +68,19 @@ const services = [
       "Workflow optimization",
     ],
     gradient: "from-indigo-500 to-violet-500",
+  },
+  {
+    icon: Database,
+    title: "ERP Billing Software",
+    description: "Custom web-based ERP and billing software tailored for textile shops, saree stores, garment shops and retail businesses in Tamil Nadu.",
+    features: [
+      "GST billing & invoice generation",
+      "Inventory & stock management",
+      "Sales, purchase & expense tracking",
+      "Multi-user role-based access",
+      "Daily, monthly & yearly reports",
+    ],
+    gradient: "from-rose-500 to-pink-500",
   },
 ];
 
