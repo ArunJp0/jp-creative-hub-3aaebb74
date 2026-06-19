@@ -170,8 +170,8 @@ const CTAButtons = ({ showQuote = false }: { showQuote?: boolean }) => (
       className="bg-primary hover:bg-primary/90 text-primary-foreground shadow-glow transition-all duration-300 hover:scale-105 hover:shadow-[0_0_50px_hsl(174_72%_56%/0.4)]"
       asChild
     >
-      <a href={`tel:${PHONE}`}>
-        <Phone className="mr-2 h-5 w-5" />
+      <a href={WHATSAPP} target="_blank" rel="noopener noreferrer">
+        <MessageCircle className="mr-2 h-5 w-5" />
         Book Free Demo
       </a>
     </Button>
