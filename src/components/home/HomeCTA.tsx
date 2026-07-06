@@ -23,8 +23,8 @@ const HomeCTA = () => {
             Ready to Start Your Project?
           </h2>
           <p className="text-lg text-muted-foreground mb-8 leading-relaxed">
-            Let's work together to bring your ideas to life. Whether you need a website, 
-            data analysis, or digital marketing — I'm here to help.
+            Let's work together to bring your ideas to life. Whether you need a website,
+            data analysis, or digital marketing — I'm here to help businesses in Salem, Tamil Nadu, and across India.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button

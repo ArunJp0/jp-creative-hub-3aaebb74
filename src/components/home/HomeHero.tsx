@@ -44,7 +44,7 @@ const HomeHero = () => {
             delay: 0.4,
             duration: 0.6
           }} className="text-4xl md:text-5xl lg:text-6xl font-bold mb-2 bg-gradient-to-r from-foreground to-primary bg-clip-text text-transparent">
-              Arunprasath JP
+              Freelance Web Developer in Salem
             </motion.h1>
 
             <motion.p initial={{
@@ -57,7 +57,7 @@ const HomeHero = () => {
             delay: 0.5,
             duration: 0.6
           }} className="text-xl md:text-2xl text-primary font-medium mb-4">
-              Freelance Web Developer in Tamilnadu
+              Arunprasath JP
             </motion.p>
 
             <motion.p initial={{
@@ -83,7 +83,7 @@ const HomeHero = () => {
             delay: 0.7,
             duration: 0.6
           }} className="text-muted-foreground mb-8 max-w-xl leading-relaxed">
-              I build fast, modern websites, insightful dashboards, and professional designs for businesses across Tamil Nadu and India.
+              I build fast, modern websites, insightful dashboards, and professional designs for businesses in Salem, Tamil Nadu, and across India.
             </motion.p>
 
             <motion.div initial={{
