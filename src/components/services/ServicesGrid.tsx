@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { useInView } from "framer-motion";
 import { useRef } from "react";
-import { Globe, TrendingUp, BarChart3, Palette, Cpu, Database, CheckCircle2 } from "lucide-react";
+import { Globe, TrendingUp, BarChart3, Palette, Cpu, Database, CheckCircle2, ArrowRight } from "lucide-react";
 
 const services = [
   {
