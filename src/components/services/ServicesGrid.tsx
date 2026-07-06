@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { useInView } from "framer-motion";
 import { useRef } from "react";
-import { Globe, TrendingUp, BarChart3, Palette, Cpu, Database, CheckCircle2 } from "lucide-react";
+import { Globe, TrendingUp, BarChart3, Palette, Cpu, Database, CheckCircle2, ArrowRight } from "lucide-react";
 
 const services = [
   {
@@ -81,6 +81,7 @@ const services = [
       "Daily, monthly & yearly reports",
     ],
     gradient: "from-rose-500 to-pink-500",
+    url: "https://arunjpwork.online/erp-software",
   },
 ];
 
@@ -127,6 +128,16 @@ const ServicesGrid = () => {
                       </li>
                     ))}
                   </ul>
+                  {service.url && (
+                    <a
+                      href={service.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center gap-1 text-sm font-medium text-primary hover:underline mt-4"
+                    >
+                      Learn More <ArrowRight className="w-4 h-4" />
+                    </a>
+                  )}
                 </div>
               </motion.div>
             ))}

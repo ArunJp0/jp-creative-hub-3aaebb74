@@ -97,10 +97,10 @@ const HomeHero = () => {
             duration: 0.6
           }} className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
               <Button size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground shadow-glow group" asChild>
-                <Link to="/contact">
+                <a href="https://arunjpwork.online/hire-me" target="_blank" rel="noopener noreferrer">
                   Hire Me
                   <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
-                </Link>
+                </a>
               </Button>
               <Button size="lg" variant="outline" className="border-primary text-primary hover:bg-primary hover:text-primary-foreground" asChild>
                 <Link to="/services">View Services</Link>
