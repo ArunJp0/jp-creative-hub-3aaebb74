@@ -81,6 +81,7 @@ const services = [
       "Daily, monthly & yearly reports",
     ],
     gradient: "from-rose-500 to-pink-500",
+    url: "https://arunjpwork.online/erp-software",
   },
 ];
 
