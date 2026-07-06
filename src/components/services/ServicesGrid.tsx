@@ -128,6 +128,16 @@ const ServicesGrid = () => {
                       </li>
                     ))}
                   </ul>
+                  {service.url && (
+                    <a
+                      href={service.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center gap-1 text-sm font-medium text-primary hover:underline mt-4"
+                    >
+                      Learn More <ArrowRight className="w-4 h-4" />
+                    </a>
+                  )}
                 </div>
               </motion.div>
             ))}
